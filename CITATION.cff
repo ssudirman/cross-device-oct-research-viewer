@@ -1,0 +1,74 @@
+cff-version: 1.2.0
+message: >-
+  If you use this software, please cite it using the metadata below. The
+  preferred citation will be updated when the associated research article is
+  published.
+title: Cross-Device OCT Research Viewer
+type: software
+version: 1.0.0
+date-released: "2026-11-10"
+license: Apache-2.0
+repository-code: https://github.com/ssudirman/cross-device-oct-research-viewer
+url: https://github.com/ssudirman/cross-device-oct-research-viewer
+authors:
+  - family-names: Natalia
+    given-names: Friska
+    orcid: https://orcid.org/0000-0002-3857-2405
+    affiliation: Universitas Multimedia Nusantara
+  - family-names: Sudirman
+    given-names: Sud
+    orcid: https://orcid.org/0000-0003-4083-0810
+    affiliation: Liverpool John Moores University
+  - family-names: Al Kafri
+    given-names: Ala
+    orcid: https://orcid.org/0000-0002-6825-9110
+    affiliation: Teesside University
+  - family-names: Desanti
+    given-names: Ririn Ikana
+    orcid: https://orcid.org/0000-0002-9336-8247
+    affiliation: Multimedia Nusantara University
+  - family-names: Ferdinand
+    given-names: Ferry Vincenttius
+    orcid: https://orcid.org/0009-0003-8535-7008
+    affiliation: Pelita Harapan University
+  - family-names: Kurniati Sjarif
+    given-names: Janalia
+    affiliation: Klinik Mata Serpong
+abstract: >-
+  A browser-based research application for navigating supported optical
+  coherence tomography datasets, viewing retinal B-scans, overlaying stored
+  retinal-boundary predictions from released cross-device models, and running
+  those models on registered custom B-scans.
+keywords:
+  - optical coherence tomography
+  - retinal layer segmentation
+  - cross-device generalisation
+  - medical image analysis
+  - research software
+references:
+  - type: data
+    title: >-
+      Cross-Device OCT Research Viewer: trained models and inference
+      predictions
+    authors:
+      - family-names: Natalia
+        given-names: Friska
+        orcid: https://orcid.org/0000-0002-3857-2405
+      - family-names: Sudirman
+        given-names: Sud
+        orcid: https://orcid.org/0000-0003-4083-0810
+      - family-names: Al Kafri
+        given-names: Ala
+        orcid: https://orcid.org/0000-0002-6825-9110
+      - family-names: Desanti
+        given-names: Ririn Ikana
+        orcid: https://orcid.org/0000-0002-9336-8247
+      - family-names: Ferdinand
+        given-names: Ferry Vincenttius
+        orcid: https://orcid.org/0009-0003-8535-7008
+      - family-names: Kurniati Sjarif
+        given-names: Janalia
+    version: 1.0.0
+    date-released: "2026-11-10"
+    doi: 10.5281/zenodo.24109134
+    url: https://doi.org/10.5281/zenodo.24109134
