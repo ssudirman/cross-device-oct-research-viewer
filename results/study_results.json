@@ -1,0 +1,1446 @@
+{
+  "schema": 1,
+  "title": "Cross-Device OCT Research \u2014 Study Results",
+  "metric": "Unit-macro mean absolute boundary error; lower values are better.",
+  "notes": [
+    "OCT5K results remain in native pixels because reliable axial pixel spacing was not available.",
+    "AROI and untouched confirmatory-cohort results are reported in micrometres.",
+    "Points are individual training seeds; intervals are the frozen hierarchical 95% intervals from the analysis files."
+  ],
+  "exploratory": [
+    {
+      "id": "all41",
+      "label": "OCT5K manual AMD/healthy",
+      "unit": "native px",
+      "arms": [
+        {
+          "arm": "B1_HM",
+          "mean": 5.389827027279752,
+          "sd": 1.347816734192971,
+          "seeds": [
+            3.4376754769177036,
+            6.931572391698723,
+            4.785688495952715,
+            5.581717478626398,
+            6.212481293203219
+          ],
+          "n_units": 41
+        },
+        {
+          "arm": "B2_GINIPA",
+          "mean": 1.8486714557575348,
+          "sd": 0.08476303843352281,
+          "seeds": [
+            1.8771436600229794,
+            1.8193846629163413,
+            1.9105633632939985,
+            1.9215128727500133,
+            1.714752719804342
+          ],
+          "n_units": 41
+        },
+        {
+          "arm": "B3_MT",
+          "mean": 25.66832609896604,
+          "sd": 12.473460318262385,
+          "seeds": [
+            25.82351395368247,
+            23.494305795734192,
+            8.582232157378757,
+            43.68142429765579,
+            26.760154290379
+          ],
+          "n_units": 41
+        },
+        {
+          "arm": "V000",
+          "mean": 5.880073747865199,
+          "sd": 1.3416065812452778,
+          "seeds": [
+            5.421889146135608,
+            7.235612686770677,
+            3.949204276311863,
+            5.729792992113933,
+            7.063869637993917
+          ],
+          "n_units": 41
+        },
+        {
+          "arm": "V001",
+          "mean": 2.1606553241837885,
+          "sd": 0.27561083624348165,
+          "seeds": [
+            1.868132050036127,
+            2.4735414205788895,
+            1.9049382645121495,
+            2.161519057875118,
+            2.3951458279166573
+          ],
+          "n_units": 41
+        },
+        {
+          "arm": "V010",
+          "mean": 2.6878285888053695,
+          "sd": 0.32499912196623354,
+          "seeds": [
+            3.0033889780644163,
+            2.262755280540511,
+            2.7611141353543274,
+            2.9669068874395736,
+            2.444977662628019
+          ],
+          "n_units": 41
+        },
+        {
+          "arm": "V011",
+          "mean": 1.8407833215902627,
+          "sd": 0.13997357686379672,
+          "seeds": [
+            1.6506916664901,
+            1.8786487726079082,
+            2.0395478652527443,
+            1.8277982856458526,
+            1.8072300179547085
+          ],
+          "n_units": 41
+        },
+        {
+          "arm": "V100",
+          "mean": 2.1332290960487272,
+          "sd": 0.31542241680858324,
+          "seeds": [
+            1.7759228068674067,
+            1.9599570439864635,
+            2.0611326025054773,
+            2.5980716099424925,
+            2.271061416941796
+          ],
+          "n_units": 41
+        },
+        {
+          "arm": "V101",
+          "mean": 1.555229570103581,
+          "sd": 0.07329925956731877,
+          "seeds": [
+            1.433490687266454,
+            1.5620231055107834,
+            1.5671048834369097,
+            1.6309707750343871,
+            1.5825583992693706
+          ],
+          "n_units": 41
+        },
+        {
+          "arm": "V110",
+          "mean": 1.8736890612934887,
+          "sd": 0.12079485588312378,
+          "seeds": [
+            1.8922560361244,
+            1.7927233524627,
+            1.9709831050744695,
+            2.000099736006821,
+            1.7123830767990518
+          ],
+          "n_units": 41
+        },
+        {
+          "arm": "V111",
+          "mean": 1.5313090538728562,
+          "sd": 0.05779289556449927,
+          "seeds": [
+            1.466368447759944,
+            1.5864061647379726,
+            1.5913387159943038,
+            1.4812738859624848,
+            1.5311580549095762
+          ],
+          "n_units": 41
+        }
+      ]
+    },
+    {
+      "id": "dme",
+      "label": "OCT5K manual DME",
+      "unit": "native px",
+      "arms": [
+        {
+          "arm": "B1_HM",
+          "mean": 8.725721911675128,
+          "sd": 2.519104181887689,
+          "seeds": [
+            4.938811693901981,
+            10.505285271974437,
+            9.16669076545052,
+            7.7124163809990565,
+            11.305405446049653
+          ],
+          "n_units": 19
+        },
+        {
+          "arm": "B2_GINIPA",
+          "mean": 2.1825779780911367,
+          "sd": 0.1692138132445471,
+          "seeds": [
+            2.197764887972499,
+            2.172200688426191,
+            2.3835250448392937,
+            2.241945277460207,
+            1.9174539917574933
+          ],
+          "n_units": 19
+        },
+        {
+          "arm": "B3_MT",
+          "mean": 35.574355534829714,
+          "sd": 15.322220115653101,
+          "seeds": [
+            34.02138104527409,
+            35.18741289663799,
+            13.639840134191104,
+            56.74203854189538,
+            38.281105056150025
+          ],
+          "n_units": 19
+        },
+        {
+          "arm": "V000",
+          "mean": 9.535908604891585,
+          "sd": 2.738627526158151,
+          "seeds": [
+            8.46366059361407,
+            12.939859999041921,
+            6.39966029815283,
+            8.053503069404705,
+            11.82285906424439
+          ],
+          "n_units": 19
+        },
+        {
+          "arm": "V001",
+          "mean": 5.970910211943284,
+          "sd": 0.6552381220736762,
+          "seeds": [
+            6.235393494674746,
+            6.330982087376825,
+            5.358461205761487,
+            5.209020592934304,
+            6.72069367896906
+          ],
+          "n_units": 19
+        },
+        {
+          "arm": "V010",
+          "mean": 5.17582283844316,
+          "sd": 1.8293200827334002,
+          "seeds": [
+            7.777907848155057,
+            3.1154658935006756,
+            4.770747606102502,
+            6.155424802383077,
+            4.059568042074489
+          ],
+          "n_units": 19
+        },
+        {
+          "arm": "V011",
+          "mean": 3.3084735416960944,
+          "sd": 0.37654008994326194,
+          "seeds": [
+            3.1896661568141376,
+            3.6688495479271674,
+            3.723930090328408,
+            2.848244374658291,
+            3.1116775387524704
+          ],
+          "n_units": 19
+        },
+        {
+          "arm": "V100",
+          "mean": 3.646897507897676,
+          "sd": 0.8034219771509467,
+          "seeds": [
+            2.276539485809063,
+            3.640180447158507,
+            4.096404015898758,
+            3.9212438970031505,
+            4.300119693618902
+          ],
+          "n_units": 19
+        },
+        {
+          "arm": "V101",
+          "mean": 3.433107734785062,
+          "sd": 0.9609488087253978,
+          "seeds": [
+            1.9952343010055962,
+            2.970933897267153,
+            4.4067943654976425,
+            3.7631187807167543,
+            4.029457329438161
+          ],
+          "n_units": 19
+        },
+        {
+          "arm": "V110",
+          "mean": 3.0020893601696317,
+          "sd": 0.18684103870594745,
+          "seeds": [
+            3.0725860876337556,
+            2.955239526751676,
+            3.2911678862171634,
+            2.8436516686501236,
+            2.847801631595438
+          ],
+          "n_units": 19
+        },
+        {
+          "arm": "V111",
+          "mean": 2.6409471426247735,
+          "sd": 0.2496241196643501,
+          "seeds": [
+            2.291844802043498,
+            2.9445577424967175,
+            2.510515657731736,
+            2.7657197661041977,
+            2.692097744747718
+          ],
+          "n_units": 19
+        }
+      ]
+    },
+    {
+      "id": "aroi",
+      "label": "AROI AX1",
+      "unit": "\u00b5m",
+      "arms": [
+        {
+          "arm": "B1_HM",
+          "mean": 12.348482617317156,
+          "sd": 0.3069993062105794,
+          "seeds": [
+            12.615725084852082,
+            12.56530632789268,
+            12.418116439841105,
+            12.29571131248734,
+            11.847553921512578
+          ],
+          "n_units": 24
+        },
+        {
+          "arm": "B2_GINIPA",
+          "mean": 17.561320942231514,
+          "sd": 0.8182234574336906,
+          "seeds": [
+            17.705980618944302,
+            17.086689116163637,
+            17.348821218070828,
+            18.890730473738767,
+            16.77438328424005
+          ],
+          "n_units": 24
+        },
+        {
+          "arm": "B3_MT",
+          "mean": 22.13105366333146,
+          "sd": 10.919834115080478,
+          "seeds": [
+            34.530862071765654,
+            13.421744976381154,
+            12.262555730369101,
+            33.30994521673774,
+            17.13016032140365
+          ],
+          "n_units": 24
+        },
+        {
+          "arm": "V000",
+          "mean": 12.691340461577074,
+          "sd": 0.47789664880648813,
+          "seeds": [
+            12.180337584805343,
+            13.087718042068815,
+            12.827014096166558,
+            12.192619175480354,
+            13.169013409364291
+          ],
+          "n_units": 24
+        },
+        {
+          "arm": "V001",
+          "mean": 10.505204245236309,
+          "sd": 0.21026694414235195,
+          "seeds": [
+            10.186025652983796,
+            10.428149681393817,
+            10.543038837626664,
+            10.725514048980708,
+            10.643293005196558
+          ],
+          "n_units": 24
+        },
+        {
+          "arm": "V010",
+          "mean": 12.97154151213201,
+          "sd": 0.5080987102305948,
+          "seeds": [
+            12.271207214217625,
+            13.261947660772606,
+            13.276080462434953,
+            12.600233798258763,
+            13.448238424976097
+          ],
+          "n_units": 24
+        },
+        {
+          "arm": "V011",
+          "mean": 10.361482503414262,
+          "sd": 0.22535120525246538,
+          "seeds": [
+            10.682877240335577,
+            10.097818033450064,
+            10.203707238168109,
+            10.42602392173192,
+            10.396986083385636
+          ],
+          "n_units": 24
+        },
+        {
+          "arm": "V100",
+          "mean": 12.253594080520537,
+          "sd": 0.21288482375340864,
+          "seeds": [
+            11.912129754528552,
+            12.309150502899788,
+            12.25210771417927,
+            12.498027128307319,
+            12.296555302687757
+          ],
+          "n_units": 24
+        },
+        {
+          "arm": "V101",
+          "mean": 9.383754962016564,
+          "sd": 0.23435668923805503,
+          "seeds": [
+            9.078727331953402,
+            9.555739274262836,
+            9.409558675627698,
+            9.224471294901008,
+            9.650278233337874
+          ],
+          "n_units": 24
+        },
+        {
+          "arm": "V110",
+          "mean": 12.397218381190083,
+          "sd": 0.7986930606999413,
+          "seeds": [
+            12.6158984872959,
+            13.114109319339327,
+            12.7233323244364,
+            11.028943176268006,
+            12.503808598610783
+          ],
+          "n_units": 24
+        },
+        {
+          "arm": "V111",
+          "mean": 9.53292417156929,
+          "sd": 0.31955665282391227,
+          "seeds": [
+            9.799057847846601,
+            9.819926071849624,
+            9.190116005915199,
+            9.187310528797006,
+            9.66821040343802
+          ],
+          "n_units": 24
+        }
+      ]
+    }
+  ],
+  "selection": {
+    "R_star": "V111",
+    "C_star": "V100",
+    "scores": [
+      {
+        "arm": "V111",
+        "score": 0.43924310051012455
+      },
+      {
+        "arm": "V101",
+        "score": 0.4697475825890861
+      },
+      {
+        "arm": "V011",
+        "score": 0.5068820364154495
+      },
+      {
+        "arm": "V110",
+        "score": 0.5513819379563334
+      },
+      {
+        "arm": "V100",
+        "score": 0.5845827807798415
+      },
+      {
+        "arm": "V001",
+        "score": 0.6204334519746583
+      },
+      {
+        "arm": "B2_GINIPA",
+        "score": 0.6556641810350647
+      },
+      {
+        "arm": "V010",
+        "score": 0.7035371568830688
+      },
+      {
+        "arm": "B1_HM",
+        "score": 0.9514103318604491
+      },
+      {
+        "arm": "V000",
+        "score": 1.0
+      },
+      {
+        "arm": "B3_MT",
+        "score": 3.306534139672249
+      }
+    ],
+    "protocol_sha256": "fc99ec3e711d040d0f90f32f0d272904d27010ceca0e43010aceb78a420ba94b",
+    "status_note": "V111 is the selected recipe. V100 is the practical comparator from an expanded retrospective selection analysis that also admitted the scale-only and occlusion-only arms."
+  },
+  "factorial": [
+    {
+      "id": "all41",
+      "label": "OCT5K manual AMD/healthy",
+      "unit": "native px",
+      "effects": [
+        {
+          "id": "main_scale",
+          "label": "Scale augmentation",
+          "effect": -1.3689710502814916,
+          "hierarchical_ci95": [
+            -1.8486784080303436,
+            -0.9262591907846449
+          ],
+          "unit_cluster_ci95": [
+            -1.7362828356741729,
+            -1.0203815230328432
+          ],
+          "seed_diffs": [
+            -1.344,
+            -1.7374,
+            -0.8661,
+            -1.2439,
+            -1.6535
+          ],
+          "n_units": 41
+        },
+        {
+          "id": "main_occlusion",
+          "label": "Rectangle occlusion",
+          "effect": -0.9488944281598299,
+          "hierarchical_ci95": [
+            -1.481422159470588,
+            -0.4688040789339595
+          ],
+          "unit_cluster_ci95": [
+            -1.2619591308045484,
+            -0.6516895685518568
+          ],
+          "seed_diffs": [
+            -0.6217,
+            -1.4277,
+            -0.2798,
+            -0.9611,
+            -1.4542
+          ],
+          "n_units": 41
+        },
+        {
+          "id": "main_fda",
+          "label": "Fourier domain adaptation",
+          "effect": -1.371710806065574,
+          "hierarchical_ci95": [
+            -1.7842691467130343,
+            -0.9806425726234825
+          ],
+          "unit_cluster_ci95": [
+            -1.7120825585297923,
+            -1.043547866602004
+          ],
+          "seed_diffs": [
+            -1.4187,
+            -1.4376,
+            -0.9099,
+            -1.5483,
+            -1.544
+          ],
+          "n_units": 41
+        },
+        {
+          "id": "interaction_scale_occlusion",
+          "label": "Scale \u00d7 occlusion",
+          "effect": 1.614328305333696,
+          "hierarchical_ci95": [
+            0.8304291854287036,
+            2.460001668637769
+          ],
+          "unit_cluster_ci95": [
+            1.2216957037234366,
+            2.0243080501659096
+          ],
+          "seed_diffs": [
+            1.3926,
+            2.7124,
+            0.4938,
+            1.1745,
+            2.2984
+          ],
+          "n_units": 41
+        },
+        {
+          "id": "interaction_scale_fda",
+          "label": "Scale \u00d7 FDA",
+          "effect": 1.8230420787653696,
+          "hierarchical_ci95": [
+            1.2127014855019824,
+            2.4703744603633813
+          ],
+          "unit_cluster_ci95": [
+            1.3798494147620612,
+            2.2848442655284735
+          ],
+          "seed_diffs": [
+            2.0691,
+            2.271,
+            0.9461,
+            1.6107,
+            2.2184
+          ],
+          "n_units": 41
+        },
+        {
+          "id": "interaction_occlusion_fda",
+          "label": "Occlusion \u00d7 FDA",
+          "effect": 1.5539963374954096,
+          "hierarchical_ci95": [
+            0.861025767366854,
+            2.358328096616221
+          ],
+          "unit_cluster_ci95": [
+            1.090741978370033,
+            2.0648796916001215
+          ],
+          "seed_diffs": [
+            1.0588,
+            2.2848,
+            0.7185,
+            1.4387,
+            2.2691
+          ],
+          "n_units": 41
+        },
+        {
+          "id": "interaction_three_way",
+          "label": "Scale \u00d7 occlusion \u00d7 FDA",
+          "effect": -2.636753637941791,
+          "hierarchical_ci95": [
+            -3.9105365736470743,
+            -1.5223872446263431
+          ],
+          "unit_cluster_ci95": [
+            -3.3464847399689703,
+            -1.9474581153041977
+          ],
+          "seed_diffs": [
+            -2.2845,
+            -4.1863,
+            -1.2083,
+            -1.9809,
+            -3.5237
+          ],
+          "n_units": 41
+        }
+      ]
+    },
+    {
+      "id": "dme",
+      "label": "OCT5K manual DME",
+      "unit": "native px",
+      "effects": [
+        {
+          "id": "main_scale",
+          "label": "Scale augmentation",
+          "effect": -2.8170183628742453,
+          "hierarchical_ci95": [
+            -4.032090175075091,
+            -1.7854058168249232
+          ],
+          "unit_cluster_ci95": [
+            -3.632584413803842,
+            -1.9996866544671958
+          ],
+          "seed_diffs": [
+            -4.0076,
+            -3.3861,
+            -1.487,
+            -2.2431,
+            -2.9613
+          ],
+          "n_units": 19
+        },
+        {
+          "id": "main_occlusion",
+          "label": "Rectangle occlusion",
+          "effect": -2.1148727941459864,
+          "hierarchical_ci95": [
+            -3.64000374567461,
+            -0.7648348429782447
+          ],
+          "unit_cluster_ci95": [
+            -3.208558019543601,
+            -1.13452470140459
+          ],
+          "seed_diffs": [
+            -0.6597,
+            -3.2995,
+            -1.4912,
+            -1.5835,
+            -3.5405
+          ],
+          "n_units": 19
+        },
+        {
+          "id": "main_fda",
+          "label": "Fourier domain adaptation",
+          "effect": -1.5018199200882092,
+          "hierarchical_ci95": [
+            -2.6246906582974066,
+            -0.5013552999564266
+          ],
+          "unit_cluster_ci95": [
+            -2.538890125580473,
+            -0.6177029234157548
+          ],
+          "seed_diffs": [
+            -1.9696,
+            -1.6839,
+            -0.6396,
+            -1.5969,
+            -1.6191
+          ],
+          "n_units": 19
+        },
+        {
+          "id": "interaction_scale_occlusion",
+          "label": "Scale \u00d7 occlusion",
+          "effect": 2.79277684840364,
+          "hierarchical_ci95": [
+            0.7629832305121598,
+            5.1089155449086805
+          ],
+          "unit_cluster_ci95": [
+            1.6298803925774907,
+            4.014732794253588
+          ],
+          "seed_diffs": [
+            2.4121,
+            5.8876,
+            0.281,
+            1.0919,
+            4.2913
+          ],
+          "n_units": 19
+        },
+        {
+          "id": "interaction_scale_fda",
+          "label": "Scale \u00d7 FDA",
+          "effect": 2.428707849518946,
+          "hierarchical_ci95": [
+            0.980849536469844,
+            3.9195513623203486
+          ],
+          "unit_cluster_ci95": [
+            1.2030843106874645,
+            3.671381627714236
+          ],
+          "seed_diffs": [
+            2.8772,
+            2.6878,
+            0.8089,
+            2.9578,
+            2.8118
+          ],
+          "n_units": 19
+        },
+        {
+          "id": "interaction_occlusion_fda",
+          "label": "Occlusion \u00d7 FDA",
+          "effect": 0.7751483258844953,
+          "hierarchical_ci95": [
+            -1.5711158253409743,
+            3.2925438852807463
+          ],
+          "unit_cluster_ci95": [
+            -0.7851725218256612,
+            2.529185359436403
+          ],
+          "seed_diffs": [
+            -1.4297,
+            3.9104,
+            -0.5483,
+            -0.1913,
+            2.1346
+          ],
+          "n_units": 19
+        },
+        {
+          "id": "interaction_three_way",
+          "label": "Scale \u00d7 occlusion \u00d7 FDA",
+          "effect": -1.8450015406334777,
+          "hierarchical_ci95": [
+            -5.206549796558159,
+            1.5418213525078874
+          ],
+          "unit_cluster_ci95": [
+            -3.787385110164495,
+            0.006633718567655582
+          ],
+          "seed_diffs": [
+            1.8605,
+            -6.5037,
+            -1.0854,
+            0.5429,
+            -4.0393
+          ],
+          "n_units": 19
+        }
+      ]
+    },
+    {
+      "id": "aroi",
+      "label": "AROI AX1",
+      "unit": "\u00b5m",
+      "effects": [
+        {
+          "id": "main_scale",
+          "label": "Scale augmentation",
+          "effect": -0.7405192817657945,
+          "hierarchical_ci95": [
+            -1.4364697597030436,
+            -0.0248113075689767
+          ],
+          "unit_cluster_ci95": [
+            -1.3952560500930427,
+            -0.07246393233896865
+          ],
+          "seed_diffs": [
+            -0.4787,
+            -0.5192,
+            -0.8187,
+            -1.0014,
+            -0.8847
+          ],
+          "n_units": 24
+        },
+        {
+          "id": "main_occlusion",
+          "label": "Rectangle occlusion",
+          "effect": 0.1073182047387907,
+          "hierarchical_ci95": [
+            -0.3643328345318637,
+            0.6807547667553621
+          ],
+          "unit_cluster_ci95": [
+            -0.2922333090726117,
+            0.597170432216673
+          ],
+          "seed_diffs": [
+            0.503,
+            0.2283,
+            0.0904,
+            -0.3495,
+            0.0645
+          ],
+          "n_units": 24
+        },
+        {
+          "id": "main_fda",
+          "label": "Fourier domain adaptation",
+          "effect": -2.63258213829582,
+          "hierarchical_ci95": [
+            -5.933850410508684,
+            -0.3169030399254749
+          ],
+          "unit_cluster_ci95": [
+            -5.963574501254776,
+            -0.3322739231402982
+          ],
+          "seed_diffs": [
+            -2.3082,
+            -2.9678,
+            -2.933,
+            -2.1891,
+            -2.7647
+          ],
+          "n_units": 24
+        },
+        {
+          "id": "interaction_scale_occlusion",
+          "label": "Scale \u00d7 occlusion",
+          "effect": 0.07815710074469176,
+          "hierarchical_ci95": [
+            -0.6764825033733598,
+            0.7636233203683713
+          ],
+          "unit_cluster_ci95": [
+            -0.3257331629792772,
+            0.5196983681293158
+          ],
+          "seed_diffs": [
+            0.4182,
+            0.6126,
+            0.071,
+            -0.8072,
+            0.0961
+          ],
+          "n_units": 24
+        },
+        {
+          "id": "interaction_scale_fda",
+          "label": "Scale \u00d7 FDA",
+          "effect": -0.468969051533128,
+          "hierarchical_ci95": [
+            -1.3254787802170271,
+            0.24724368532746538
+          ],
+          "unit_cluster_ci95": [
+            -1.1320764541251647,
+            0.10156036236967471
+          ],
+          "seed_diffs": [
+            -1.0338,
+            -0.1119,
+            -0.5097,
+            -0.7369,
+            0.0475
+          ],
+          "n_units": 24
+        },
+        {
+          "id": "interaction_occlusion_fda",
+          "label": "Occlusion \u00d7 FDA",
+          "effect": -0.20918894174690192,
+          "hierarchical_ci95": [
+            -1.0855111709446545,
+            0.6438422050351698
+          ],
+          "unit_cluster_ci95": [
+            -0.8563671409366239,
+            0.3839824455694263
+          ],
+          "seed_diffs": [
+            0.2113,
+            -0.5227,
+            -0.7395,
+            0.3624,
+            -0.3574
+          ],
+          "n_units": 24
+        },
+        {
+          "id": "interaction_three_way",
+          "label": "Scale \u00d7 occlusion \u00d7 FDA",
+          "effect": 0.42946770126016204,
+          "hierarchical_ci95": [
+            -0.921727389534973,
+            1.8889188114643383
+          ],
+          "unit_cluster_ci95": [
+            -0.24738626253788776,
+            1.2639271921194406
+          ],
+          "seed_diffs": [
+            -0.3894,
+            -0.0362,
+            0.0977,
+            2.139,
+            0.3362
+          ],
+          "n_units": 24
+        }
+      ]
+    }
+  ],
+  "confirmatory": {
+    "R_star": "V111",
+    "C_star": "V100",
+    "margin_um": 1.62,
+    "bootstrap_replicates": 10000,
+    "datasets": [
+      {
+        "id": "jhu",
+        "label": "JHU healthy/multiple-sclerosis",
+        "unit": "\u00b5m",
+        "absolute": [
+          {
+            "arm": "V000",
+            "mean": 10.970921017027335,
+            "seeds": [
+              10.69298725885154,
+              11.452247368745386,
+              9.447001143193265,
+              9.134342572669818,
+              14.12802674167667
+            ]
+          },
+          {
+            "arm": "V100",
+            "mean": 6.1598791457986035,
+            "seeds": [
+              5.768115114481165,
+              5.67647227023063,
+              6.126828686809981,
+              6.734853275602071,
+              6.493126381869172
+            ]
+          },
+          {
+            "arm": "V111",
+            "mean": 5.539589128645881,
+            "seeds": [
+              5.520872912548215,
+              5.630507952534361,
+              5.51079224060468,
+              5.54982274964521,
+              5.485949787896938
+            ]
+          }
+        ],
+        "contrasts": [
+          {
+            "id": "H1",
+            "label": "V111 \u2212 V000",
+            "a": "V111",
+            "b": "V000",
+            "difference": -5.431331888381456,
+            "ci95": [
+              -9.209850369265304,
+              -2.611623993896252
+            ],
+            "seed_differences": [
+              -5.1721143463033235,
+              -5.821739416211023,
+              -3.9362089025885862,
+              -3.5845198230246096,
+              -8.642076953779734
+            ],
+            "p_one_sided": 9.999000099990002e-05,
+            "n_units": 35,
+            "supported": true
+          },
+          {
+            "id": "H2_expanded_comparator",
+            "label": "V111 \u2212 V100",
+            "a": "V111",
+            "b": "V100",
+            "difference": -0.620290017152723,
+            "ci95": [
+              -1.3029566779355353,
+              -0.1608834589757854
+            ],
+            "seed_differences": [
+              -0.24724220193294952,
+              -0.045964317696268533,
+              -0.6160364462053013,
+              -1.1850305259568625,
+              -1.0071765939722337
+            ],
+            "p_one_sided": 0.0008999100089991,
+            "n_units": 35,
+            "supported": true
+          }
+        ],
+        "holm": {
+          "p": 9.999000099990002e-05,
+          "threshold": 0.025,
+          "reject": true
+        }
+      },
+      {
+        "id": "dme",
+        "label": "OCT5K manual DME",
+        "unit": "\u00b5m",
+        "absolute": [
+          {
+            "arm": "V000",
+            "mean": 146.54530523441707,
+            "seeds": [
+              133.01242516449568,
+              73.56991181856696,
+              238.90123937600214,
+              140.00530685997236,
+              147.23764295304835
+            ]
+          },
+          {
+            "arm": "V100",
+            "mean": 94.2342518351018,
+            "seeds": [
+              194.79019318508549,
+              71.4274714020304,
+              33.216604321614675,
+              40.8010568365693,
+              130.93593343020908
+            ]
+          },
+          {
+            "arm": "V111",
+            "mean": 21.274953814650623,
+            "seeds": [
+              14.488119077207205,
+              25.636308239234637,
+              31.08784294978197,
+              18.851978751357727,
+              16.310520055671574
+            ]
+          }
+        ],
+        "contrasts": [
+          {
+            "id": "H1",
+            "label": "V111 \u2212 V000",
+            "a": "V111",
+            "b": "V000",
+            "difference": -125.27035141976647,
+            "ci95": [
+              -200.27875405993134,
+              -67.03830413114669
+            ],
+            "seed_differences": [
+              -118.52430608728847,
+              -47.93360357933233,
+              -207.81339642622015,
+              -121.15332810861462,
+              -130.92712289737676
+            ],
+            "p_one_sided": 9.999000099990002e-05,
+            "n_units": 10,
+            "supported": true
+          },
+          {
+            "id": "H2_expanded_comparator",
+            "label": "V111 \u2212 V100",
+            "a": "V111",
+            "b": "V100",
+            "difference": -72.95929802045117,
+            "ci95": [
+              -151.2844273130311,
+              -17.178807913621966
+            ],
+            "seed_differences": [
+              -180.3020741078783,
+              -45.791163162795776,
+              -2.128761371832703,
+              -21.94907808521158,
+              -114.62541337453752
+            ],
+            "p_one_sided": 0.0006999300069993001,
+            "n_units": 10,
+            "supported": true
+          }
+        ],
+        "holm": {
+          "p": 9.999000099990002e-05,
+          "threshold": 0.05,
+          "reject": true
+        }
+      }
+    ],
+    "boundaries": [
+      {
+        "id": "jhu",
+        "label": "JHU healthy/multiple-sclerosis",
+        "unit": "\u00b5m",
+        "arms": [
+          {
+            "arm": "V000",
+            "values": {
+              "ILM": 17.70102259095344,
+              "RPE_inner": 6.690213050077552,
+              "RPE_outer": 8.521527410051014
+            }
+          },
+          {
+            "arm": "V100",
+            "values": {
+              "ILM": 4.818549928379556,
+              "RPE_inner": 5.46966899904466,
+              "RPE_outer": 8.191418509971594
+            }
+          },
+          {
+            "arm": "V111",
+            "values": {
+              "ILM": 3.351044834465363,
+              "RPE_inner": 5.090928446262654,
+              "RPE_outer": 8.176794105209625
+            }
+          }
+        ],
+        "status": "descriptive; boundary means are pooled over seeds and evaluation units"
+      },
+      {
+        "id": "dme",
+        "label": "OCT5K manual DME",
+        "unit": "\u00b5m",
+        "arms": [
+          {
+            "arm": "V000",
+            "values": {
+              "ILM": 226.7423447850659,
+              "RPE_inner": 111.26377384195628,
+              "RPE_outer": 101.63345945443461
+            }
+          },
+          {
+            "arm": "V100",
+            "values": {
+              "ILM": 146.2612897121263,
+              "RPE_inner": 71.19603342023336,
+              "RPE_outer": 65.2479541505813
+            }
+          },
+          {
+            "arm": "V111",
+            "values": {
+              "ILM": 16.875785122424567,
+              "RPE_inner": 26.2178689634675,
+              "RPE_outer": 20.731155745940956
+            }
+          }
+        ],
+        "status": "descriptive; boundary means are pooled over seeds and evaluation units"
+      }
+    ],
+    "status_note": "The V111-versus-V000 superiority tests are registered confirmatory results. The V111-versus-V100 comparison uses the expanded retrospective comparator analysis."
+  },
+  "source_validation": {
+    "arm": "V000",
+    "dataset": "Duke AMD/control validation split",
+    "unit": "native px",
+    "seeds": [
+      {
+        "seed": 0,
+        "mae_px": 0.6494189513818223
+      },
+      {
+        "seed": 1,
+        "mae_px": 0.6513758613179895
+      },
+      {
+        "seed": 2,
+        "mae_px": 0.6489465316655688
+      },
+      {
+        "seed": 3,
+        "mae_px": 0.6524053484950931
+      },
+      {
+        "seed": 4,
+        "mae_px": 0.6555057111670596
+      }
+    ],
+    "mean": 0.6515304808055067,
+    "role": "source-domain sanity check; not part of cross-device recipe selection"
+  },
+  "downloads": [
+    {
+      "id": "fbff1045dfa6f12a",
+      "label": "analysis_manifest.json",
+      "stage": "exploratory",
+      "path": "results/exploratory/analysis/analysis_manifest.json",
+      "sha256": "864c814888ae5e5de27cbdd0acaf35e0ffb3a6ff3c4bd7bb3a4c60a338020cbf",
+      "bytes": 239
+    },
+    {
+      "id": "adee8d6fc58aa0d6",
+      "label": "aroi_strata_patient_macro.csv",
+      "stage": "exploratory",
+      "path": "results/exploratory/analysis/aroi_strata_patient_macro.csv",
+      "sha256": "d1bab355b0512c4a7afc1d8eb036cd5523b050dd3b1b6992709417be9f445a32",
+      "bytes": 12628
+    },
+    {
+      "id": "3e45fd0fc523db31",
+      "label": "macro_comparisons.csv",
+      "stage": "exploratory",
+      "path": "results/exploratory/analysis/macro_comparisons.csv",
+      "sha256": "c77508bd20e76bb2e3cbf0f3ae40c9d879e1e9403199756175a857e206ec4a2d",
+      "bytes": 10727
+    },
+    {
+      "id": "652b1a8683dcffea",
+      "label": "macro_summary.csv",
+      "stage": "exploratory",
+      "path": "results/exploratory/analysis/macro_summary.csv",
+      "sha256": "7b3fd85b9163c349e7723888478077787c04bd40456c79d9722c2142078d9c4f",
+      "bytes": 3334
+    },
+    {
+      "id": "0716c45f2eca0b9f",
+      "label": "expanded_selection.json",
+      "stage": "selection",
+      "path": "results/selection/expanded_selection.json",
+      "sha256": "4541a741d800b1fe953ad17e6640d0492de6e3f5ff2798929b4d67f6bd3bfb3d",
+      "bytes": 1531
+    },
+    {
+      "id": "7773e1777fcaba3a",
+      "label": "expanded_selection_rule_as_locked.md",
+      "stage": "selection",
+      "path": "results/selection/expanded_selection_rule_as_locked.md",
+      "sha256": "fc99ec3e711d040d0f90f32f0d272904d27010ceca0e43010aceb78a420ba94b",
+      "bytes": 1743
+    },
+    {
+      "id": "af764f156d27dc5b",
+      "label": "expanded_selection_rule_sha256.txt",
+      "stage": "selection",
+      "path": "results/selection/expanded_selection_rule_sha256.txt",
+      "sha256": "c508a0333312262a21e4c9a71ff0965a98c728cb70404549728288e9eb3a33e3",
+      "bytes": 103
+    },
+    {
+      "id": "edc5130de2bf8901",
+      "label": "macro_table.csv",
+      "stage": "selection",
+      "path": "results/selection/macro_table.csv",
+      "sha256": "6948e2b0a45f6c8f96b0855f9864082b3cddc15dd4a5d2091edce5e752ca3786",
+      "bytes": 5815
+    },
+    {
+      "id": "5d301910be2f667c",
+      "label": "run_manifest.json",
+      "stage": "selection",
+      "path": "results/selection/run_manifest.json",
+      "sha256": "9ae0b3f017f377792ed9bdc1e7597e27907d1d85f95081676b7aeb6e17328e8e",
+      "bytes": 282
+    },
+    {
+      "id": "2f82abfd61e77718",
+      "label": "verification_report.json",
+      "stage": "selection",
+      "path": "results/selection/verification_report.json",
+      "sha256": "eacc7caba612966a78b3edc43da66a8eda6eba092af81c41b8253fa5d0b0c49f",
+      "bytes": 4016
+    },
+    {
+      "id": "b7b31ff536ece319",
+      "label": "boundary_and_baseline_summary.json",
+      "stage": "confirmatory",
+      "path": "results/confirmatory/analysis/boundary_and_baseline_summary.json",
+      "sha256": "9b4cd047d836c254dff805faff7e3b472750dc9cafbaad64c3a33b5edb99a996",
+      "bytes": 16362
+    },
+    {
+      "id": "3728a7eeeac5719a",
+      "label": "expanded_confirmatory_reanalysis.json",
+      "stage": "confirmatory",
+      "path": "results/confirmatory/analysis/expanded_confirmatory_reanalysis.json",
+      "sha256": "47263e8c503db3d7555cd47d7ea01d2c2bba363ffe023a340bea31937537f613",
+      "bytes": 5934
+    },
+    {
+      "id": "364b7864ca535f96",
+      "label": "expanded_contrasts.csv",
+      "stage": "confirmatory",
+      "path": "results/confirmatory/analysis/expanded_contrasts.csv",
+      "sha256": "a744e46c6e5e52cc38d3b933fcffdf215c2f3f4f7e56ecf85452fcdf6b59ef13",
+      "bytes": 1198
+    },
+    {
+      "id": "33ce43e3028e14b9",
+      "label": "posthoc_unit_table.csv",
+      "stage": "confirmatory",
+      "path": "results/confirmatory/analysis/posthoc_unit_table.csv",
+      "sha256": "0f4d0ffc2fbff36426bd65f496091f934f8add979c7a98b4c252f9be90c8bcbb",
+      "bytes": 304231
+    },
+    {
+      "id": "2196445416c1e101",
+      "label": "registered_hypotheses.json",
+      "stage": "confirmatory",
+      "path": "results/confirmatory/analysis/registered_hypotheses.json",
+      "sha256": "2d3d95f0539a52bb7e287771e444f464df4e75d9679605110d3191d9476fea8c",
+      "bytes": 6145
+    },
+    {
+      "id": "d3c178c78d3162fa",
+      "label": "run_manifest.json",
+      "stage": "confirmatory",
+      "path": "results/confirmatory/analysis/run_manifest.json",
+      "sha256": "9ae0b3f017f377792ed9bdc1e7597e27907d1d85f95081676b7aeb6e17328e8e",
+      "bytes": 282
+    },
+    {
+      "id": "f3c442d30b51bbd2",
+      "label": "unit_table.csv",
+      "stage": "confirmatory",
+      "path": "results/confirmatory/analysis/unit_table.csv",
+      "sha256": "fdaa6516deba0c514583fbe85b99028b65c093d8c7ea3170eab4bc96d4094a1c",
+      "bytes": 252212
+    },
+    {
+      "id": "70127ead15327dca",
+      "label": "verification_report.json",
+      "stage": "confirmatory",
+      "path": "results/confirmatory/analysis/verification_report.json",
+      "sha256": "eacc7caba612966a78b3edc43da66a8eda6eba092af81c41b8253fa5d0b0c49f",
+      "bytes": 4016
+    },
+    {
+      "id": "0af4de8f3886c6da",
+      "label": "validation.json",
+      "stage": "source-validation",
+      "path": "results/source-validation/V000/seed_000/validation.json",
+      "sha256": "4396ce7b9a9f6cb530b15f4c900015a321a80864b0ade1c508aeac3e2037e370",
+      "bytes": 1416
+    },
+    {
+      "id": "c305946d87dd53b2",
+      "label": "validation.json",
+      "stage": "source-validation",
+      "path": "results/source-validation/V000/seed_001/validation.json",
+      "sha256": "41808a0746e07627a2c328fd9eec958d37d6a5f8b6c6d31f98f7bf111657bc3d",
+      "bytes": 1409
+    },
+    {
+      "id": "bed7e0fad65e1089",
+      "label": "validation.json",
+      "stage": "source-validation",
+      "path": "results/source-validation/V000/seed_002/validation.json",
+      "sha256": "25105d46ebb4246ba88034ad3165ff68d68dca297b289c014d04a9e3df61164c",
+      "bytes": 1414
+    },
+    {
+      "id": "bb7986b048259f49",
+      "label": "validation.json",
+      "stage": "source-validation",
+      "path": "results/source-validation/V000/seed_003/validation.json",
+      "sha256": "c3b906986280a5b865ff6f18970e5f214f2c4e00a3e776a0c94b8ab1f0e57b5d",
+      "bytes": 1411
+    },
+    {
+      "id": "821bb00955fe1abf",
+      "label": "validation.json",
+      "stage": "source-validation",
+      "path": "results/source-validation/V000/seed_004/validation.json",
+      "sha256": "9606c46fe2211d4866abdaef4cfc3d11d8a6b6f7ca67f14855c40762d45a03d9",
+      "bytes": 1413
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "bootstrap_replicates": 10000,
+  "bootstrap_seed": 20261014,
+  "estimand": "mean across seeds of unweighted volume/patient mean MAE",
+  "interval": "paired hierarchical seed-and-unit percentile bootstrap",
+  "n_conditions": 300
+}

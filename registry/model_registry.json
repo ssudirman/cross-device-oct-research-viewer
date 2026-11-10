@@ -1,0 +1,1105 @@
+{
+  "models": [
+    {
+      "adaptation": null,
+      "architecture": "SurfaceUNet-v1",
+      "arm": "V000",
+      "boundary_order": [
+        "ILM",
+        "RPE_inner",
+        "RPE_outer_BM"
+      ],
+      "category": "factorial",
+      "checkpoint": "models/factorial/V000/seed_000/source_best.pt",
+      "checkpoint_sha256": "a3272f49bf72c4fd66b13c5d96e6226e4fba882258d08f21a1b67e5dacf1d683",
+      "fda": false,
+      "model_id": "V000__seed_000",
+      "occlusion": false,
+      "role": null,
+      "scale": false,
+      "seed": 0,
+      "selected_weights": "model"
+    },
+    {
+      "adaptation": null,
+      "architecture": "SurfaceUNet-v1",
+      "arm": "V000",
+      "boundary_order": [
+        "ILM",
+        "RPE_inner",
+        "RPE_outer_BM"
+      ],
+      "category": "factorial",
+      "checkpoint": "models/factorial/V000/seed_001/source_best.pt",
+      "checkpoint_sha256": "efaaefa7f0eed5a336fdddcd53e08983d643caaff63e562b49f60cdb8b963ad7",
+      "fda": false,
+      "model_id": "V000__seed_001",
+      "occlusion": false,
+      "role": null,
+      "scale": false,
+      "seed": 1,
+      "selected_weights": "model"
+    },
+    {
+      "adaptation": null,
+      "architecture": "SurfaceUNet-v1",
+      "arm": "V000",
+      "boundary_order": [
+        "ILM",
+        "RPE_inner",
+        "RPE_outer_BM"
+      ],
+      "category": "factorial",
+      "checkpoint": "models/factorial/V000/seed_002/source_best.pt",
+      "checkpoint_sha256": "2b83eba971a5b5d6a5b032820d452e10d8e79232af4ab1bb4cc9a68ef7540aca",
+      "fda": false,
+      "model_id": "V000__seed_002",
+      "occlusion": false,
+      "role": null,
+      "scale": false,
+      "seed": 2,
+      "selected_weights": "model"
+    },
+    {
+      "adaptation": null,
+      "architecture": "SurfaceUNet-v1",
+      "arm": "V000",
+      "boundary_order": [
+        "ILM",
+        "RPE_inner",
+        "RPE_outer_BM"
+      ],
+      "category": "factorial",
+      "checkpoint": "models/factorial/V000/seed_003/source_best.pt",
+      "checkpoint_sha256": "9dd6383b3c7be8016be27693ffb1f5f25cffc760fbb166941be9d9b3354bfc7c",
+      "fda": false,
+      "model_id": "V000__seed_003",
+      "occlusion": false,
+      "role": null,
+      "scale": false,
+      "seed": 3,
+      "selected_weights": "model"
+    },
+    {
+      "adaptation": null,
+      "architecture": "SurfaceUNet-v1",
+      "arm": "V000",
+      "boundary_order": [
+        "ILM",
+        "RPE_inner",
+        "RPE_outer_BM"
+      ],
+      "category": "factorial",
+      "checkpoint": "models/factorial/V000/seed_004/source_best.pt",
+      "checkpoint_sha256": "6511e9314710f0575814d32d5d1179862a80d418cb6afc219bcd2eac9cea7083",
+      "fda": false,
+      "model_id": "V000__seed_004",
+      "occlusion": false,
+      "role": null,
+      "scale": false,
+      "seed": 4,
+      "selected_weights": "model"
+    },
+    {
+      "adaptation": null,
+      "architecture": "SurfaceUNet-v1",
+      "arm": "V001",
+      "boundary_order": [
+        "ILM",
+        "RPE_inner",
+        "RPE_outer_BM"
+      ],
+      "category": "factorial",
+      "checkpoint": "models/factorial/V001/seed_000/source_best.pt",
+      "checkpoint_sha256": "7c2ff930315234c5c52b7624f5a733b77cfe589c3efe428723d320c0d7804798",
+      "fda": true,
+      "model_id": "V001__seed_000",
+      "occlusion": false,
+      "role": null,
+      "scale": false,
+      "seed": 0,
+      "selected_weights": "model"
+    },
+    {
+      "adaptation": null,
+      "architecture": "SurfaceUNet-v1",
+      "arm": "V001",
+      "boundary_order": [
+        "ILM",
+        "RPE_inner",
+        "RPE_outer_BM"
+      ],
+      "category": "factorial",
+      "checkpoint": "models/factorial/V001/seed_001/source_best.pt",
+      "checkpoint_sha256": "95088541f2a12fb838cb87e617f8ea3d1f8b5ff0b6429844b8adc7c300263399",
+      "fda": true,
+      "model_id": "V001__seed_001",
+      "occlusion": false,
+      "role": null,
+      "scale": false,
+      "seed": 1,
+      "selected_weights": "model"
+    },
+    {
+      "adaptation": null,
+      "architecture": "SurfaceUNet-v1",
+      "arm": "V001",
+      "boundary_order": [
+        "ILM",
+        "RPE_inner",
+        "RPE_outer_BM"
+      ],
+      "category": "factorial",
+      "checkpoint": "models/factorial/V001/seed_002/source_best.pt",
+      "checkpoint_sha256": "4c8676db7440c3884b268c548d75bc3027022f6d050141258f1290dfba2bc257",
+      "fda": true,
+      "model_id": "V001__seed_002",
+      "occlusion": false,
+      "role": null,
+      "scale": false,
+      "seed": 2,
+      "selected_weights": "model"
+    },
+    {
+      "adaptation": null,
+      "architecture": "SurfaceUNet-v1",
+      "arm": "V001",
+      "boundary_order": [
+        "ILM",
+        "RPE_inner",
+        "RPE_outer_BM"
+      ],
+      "category": "factorial",
+      "checkpoint": "models/factorial/V001/seed_003/source_best.pt",
+      "checkpoint_sha256": "a4806af60d2e48366bc840c8390db7782f59726d1ace67ca8bcf16f106bfa492",
+      "fda": true,
+      "model_id": "V001__seed_003",
+      "occlusion": false,
+      "role": null,
+      "scale": false,
+      "seed": 3,
+      "selected_weights": "model"
+    },
+    {
+      "adaptation": null,
+      "architecture": "SurfaceUNet-v1",
+      "arm": "V001",
+      "boundary_order": [
+        "ILM",
+        "RPE_inner",
+        "RPE_outer_BM"
+      ],
+      "category": "factorial",
+      "checkpoint": "models/factorial/V001/seed_004/source_best.pt",
+      "checkpoint_sha256": "8eb9208678abf7ec435d4c9143dbb1f5c2852122bce97c66a4c2131c71910b17",
+      "fda": true,
+      "model_id": "V001__seed_004",
+      "occlusion": false,
+      "role": null,
+      "scale": false,
+      "seed": 4,
+      "selected_weights": "model"
+    },
+    {
+      "adaptation": null,
+      "architecture": "SurfaceUNet-v1",
+      "arm": "V010",
+      "boundary_order": [
+        "ILM",
+        "RPE_inner",
+        "RPE_outer_BM"
+      ],
+      "category": "factorial",
+      "checkpoint": "models/factorial/V010/seed_000/source_best.pt",
+      "checkpoint_sha256": "813941b652615b8943bbe9dc77d54b5ed8f42fbea5cc17fd364e2da53b5f2507",
+      "fda": false,
+      "model_id": "V010__seed_000",
+      "occlusion": true,
+      "role": null,
+      "scale": false,
+      "seed": 0,
+      "selected_weights": "model"
+    },
+    {
+      "adaptation": null,
+      "architecture": "SurfaceUNet-v1",
+      "arm": "V010",
+      "boundary_order": [
+        "ILM",
+        "RPE_inner",
+        "RPE_outer_BM"
+      ],
+      "category": "factorial",
+      "checkpoint": "models/factorial/V010/seed_001/source_best.pt",
+      "checkpoint_sha256": "f6275c42f87516229d13e3ba7c8786c5b696e4fe8d9a1a8306f4acf5ec99f00b",
+      "fda": false,
+      "model_id": "V010__seed_001",
+      "occlusion": true,
+      "role": null,
+      "scale": false,
+      "seed": 1,
+      "selected_weights": "model"
+    },
+    {
+      "adaptation": null,
+      "architecture": "SurfaceUNet-v1",
+      "arm": "V010",
+      "boundary_order": [
+        "ILM",
+        "RPE_inner",
+        "RPE_outer_BM"
+      ],
+      "category": "factorial",
+      "checkpoint": "models/factorial/V010/seed_002/source_best.pt",
+      "checkpoint_sha256": "b574a3205ff447ffdd98ee8e29c41bc04fecfa72717d1c5330641c81b5c0459b",
+      "fda": false,
+      "model_id": "V010__seed_002",
+      "occlusion": true,
+      "role": null,
+      "scale": false,
+      "seed": 2,
+      "selected_weights": "model"
+    },
+    {
+      "adaptation": null,
+      "architecture": "SurfaceUNet-v1",
+      "arm": "V010",
+      "boundary_order": [
+        "ILM",
+        "RPE_inner",
+        "RPE_outer_BM"
+      ],
+      "category": "factorial",
+      "checkpoint": "models/factorial/V010/seed_003/source_best.pt",
+      "checkpoint_sha256": "e05015614bf45e886e13446476acaf886313cd7092d19322cabb8b93517226bc",
+      "fda": false,
+      "model_id": "V010__seed_003",
+      "occlusion": true,
+      "role": null,
+      "scale": false,
+      "seed": 3,
+      "selected_weights": "model"
+    },
+    {
+      "adaptation": null,
+      "architecture": "SurfaceUNet-v1",
+      "arm": "V010",
+      "boundary_order": [
+        "ILM",
+        "RPE_inner",
+        "RPE_outer_BM"
+      ],
+      "category": "factorial",
+      "checkpoint": "models/factorial/V010/seed_004/source_best.pt",
+      "checkpoint_sha256": "cdcb88633213081d4b7aa8670c88d1e622d4ddb64fa388987a5e04710b87824b",
+      "fda": false,
+      "model_id": "V010__seed_004",
+      "occlusion": true,
+      "role": null,
+      "scale": false,
+      "seed": 4,
+      "selected_weights": "model"
+    },
+    {
+      "adaptation": null,
+      "architecture": "SurfaceUNet-v1",
+      "arm": "V011",
+      "boundary_order": [
+        "ILM",
+        "RPE_inner",
+        "RPE_outer_BM"
+      ],
+      "category": "factorial",
+      "checkpoint": "models/factorial/V011/seed_000/source_best.pt",
+      "checkpoint_sha256": "9f73bff91c061a8caf566481c739d7ef8d483f79044edd0fc4f8c58f37faf78e",
+      "fda": true,
+      "model_id": "V011__seed_000",
+      "occlusion": true,
+      "role": null,
+      "scale": false,
+      "seed": 0,
+      "selected_weights": "model"
+    },
+    {
+      "adaptation": null,
+      "architecture": "SurfaceUNet-v1",
+      "arm": "V011",
+      "boundary_order": [
+        "ILM",
+        "RPE_inner",
+        "RPE_outer_BM"
+      ],
+      "category": "factorial",
+      "checkpoint": "models/factorial/V011/seed_001/source_best.pt",
+      "checkpoint_sha256": "740c0d1cdac1498b17c6857bca81c18aa404fe6be6ae5f1bc06f5b9dccb5b347",
+      "fda": true,
+      "model_id": "V011__seed_001",
+      "occlusion": true,
+      "role": null,
+      "scale": false,
+      "seed": 1,
+      "selected_weights": "model"
+    },
+    {
+      "adaptation": null,
+      "architecture": "SurfaceUNet-v1",
+      "arm": "V011",
+      "boundary_order": [
+        "ILM",
+        "RPE_inner",
+        "RPE_outer_BM"
+      ],
+      "category": "factorial",
+      "checkpoint": "models/factorial/V011/seed_002/source_best.pt",
+      "checkpoint_sha256": "374a9f4baf952978da20ff1da6e02898e43f2ac9618b7b3437d2536d5666d9a5",
+      "fda": true,
+      "model_id": "V011__seed_002",
+      "occlusion": true,
+      "role": null,
+      "scale": false,
+      "seed": 2,
+      "selected_weights": "model"
+    },
+    {
+      "adaptation": null,
+      "architecture": "SurfaceUNet-v1",
+      "arm": "V011",
+      "boundary_order": [
+        "ILM",
+        "RPE_inner",
+        "RPE_outer_BM"
+      ],
+      "category": "factorial",
+      "checkpoint": "models/factorial/V011/seed_003/source_best.pt",
+      "checkpoint_sha256": "bde70c2b79b9b0cc15257af5c3a076c498ca47f9d9999d2fe90ee3b98e133570",
+      "fda": true,
+      "model_id": "V011__seed_003",
+      "occlusion": true,
+      "role": null,
+      "scale": false,
+      "seed": 3,
+      "selected_weights": "model"
+    },
+    {
+      "adaptation": null,
+      "architecture": "SurfaceUNet-v1",
+      "arm": "V011",
+      "boundary_order": [
+        "ILM",
+        "RPE_inner",
+        "RPE_outer_BM"
+      ],
+      "category": "factorial",
+      "checkpoint": "models/factorial/V011/seed_004/source_best.pt",
+      "checkpoint_sha256": "b4a5b50f0ec52cd5bddc69a80b19b9ecf4a93ea47124dc5377f846a3cf99154f",
+      "fda": true,
+      "model_id": "V011__seed_004",
+      "occlusion": true,
+      "role": null,
+      "scale": false,
+      "seed": 4,
+      "selected_weights": "model"
+    },
+    {
+      "adaptation": null,
+      "architecture": "SurfaceUNet-v1",
+      "arm": "V100",
+      "boundary_order": [
+        "ILM",
+        "RPE_inner",
+        "RPE_outer_BM"
+      ],
+      "category": "factorial",
+      "checkpoint": "models/factorial/V100/seed_000/source_best.pt",
+      "checkpoint_sha256": "25ce1cd90f69b8a4c88b19ac48af44d61abc61f2c1d3b4419ce26ef59eed6fb5",
+      "fda": false,
+      "model_id": "V100__seed_000",
+      "occlusion": false,
+      "role": "C*",
+      "scale": true,
+      "seed": 0,
+      "selected_weights": "model"
+    },
+    {
+      "adaptation": null,
+      "architecture": "SurfaceUNet-v1",
+      "arm": "V100",
+      "boundary_order": [
+        "ILM",
+        "RPE_inner",
+        "RPE_outer_BM"
+      ],
+      "category": "factorial",
+      "checkpoint": "models/factorial/V100/seed_001/source_best.pt",
+      "checkpoint_sha256": "92298184aa2240e964118412fbf3a06559afad7dc10494b4bf5d70baf98a98e2",
+      "fda": false,
+      "model_id": "V100__seed_001",
+      "occlusion": false,
+      "role": "C*",
+      "scale": true,
+      "seed": 1,
+      "selected_weights": "model"
+    },
+    {
+      "adaptation": null,
+      "architecture": "SurfaceUNet-v1",
+      "arm": "V100",
+      "boundary_order": [
+        "ILM",
+        "RPE_inner",
+        "RPE_outer_BM"
+      ],
+      "category": "factorial",
+      "checkpoint": "models/factorial/V100/seed_002/source_best.pt",
+      "checkpoint_sha256": "e3648f0a26a66e39af08e7f5036d891434af38c0ae61846957cbf6f1fbce295f",
+      "fda": false,
+      "model_id": "V100__seed_002",
+      "occlusion": false,
+      "role": "C*",
+      "scale": true,
+      "seed": 2,
+      "selected_weights": "model"
+    },
+    {
+      "adaptation": null,
+      "architecture": "SurfaceUNet-v1",
+      "arm": "V100",
+      "boundary_order": [
+        "ILM",
+        "RPE_inner",
+        "RPE_outer_BM"
+      ],
+      "category": "factorial",
+      "checkpoint": "models/factorial/V100/seed_003/source_best.pt",
+      "checkpoint_sha256": "1b9ec5d3cf2afc396ddbc2b72a0cb8b353e94d7b042effc84e150f85d40e79b3",
+      "fda": false,
+      "model_id": "V100__seed_003",
+      "occlusion": false,
+      "role": "C*",
+      "scale": true,
+      "seed": 3,
+      "selected_weights": "model"
+    },
+    {
+      "adaptation": null,
+      "architecture": "SurfaceUNet-v1",
+      "arm": "V100",
+      "boundary_order": [
+        "ILM",
+        "RPE_inner",
+        "RPE_outer_BM"
+      ],
+      "category": "factorial",
+      "checkpoint": "models/factorial/V100/seed_004/source_best.pt",
+      "checkpoint_sha256": "e74e9128021a92888674d354e39f032e27bc117cc7fde52e55865c888f2cfe70",
+      "fda": false,
+      "model_id": "V100__seed_004",
+      "occlusion": false,
+      "role": "C*",
+      "scale": true,
+      "seed": 4,
+      "selected_weights": "model"
+    },
+    {
+      "adaptation": null,
+      "architecture": "SurfaceUNet-v1",
+      "arm": "V101",
+      "boundary_order": [
+        "ILM",
+        "RPE_inner",
+        "RPE_outer_BM"
+      ],
+      "category": "factorial",
+      "checkpoint": "models/factorial/V101/seed_000/source_best.pt",
+      "checkpoint_sha256": "1a001ae1b4dc7dc100ded34fe8c1715b36043634d56d0015ec78faaba5cbec2f",
+      "fda": true,
+      "model_id": "V101__seed_000",
+      "occlusion": false,
+      "role": null,
+      "scale": true,
+      "seed": 0,
+      "selected_weights": "model"
+    },
+    {
+      "adaptation": null,
+      "architecture": "SurfaceUNet-v1",
+      "arm": "V101",
+      "boundary_order": [
+        "ILM",
+        "RPE_inner",
+        "RPE_outer_BM"
+      ],
+      "category": "factorial",
+      "checkpoint": "models/factorial/V101/seed_001/source_best.pt",
+      "checkpoint_sha256": "31f5196d47fd80d4e26013847321640274e189ff5692d4aa52306c6ec65392b9",
+      "fda": true,
+      "model_id": "V101__seed_001",
+      "occlusion": false,
+      "role": null,
+      "scale": true,
+      "seed": 1,
+      "selected_weights": "model"
+    },
+    {
+      "adaptation": null,
+      "architecture": "SurfaceUNet-v1",
+      "arm": "V101",
+      "boundary_order": [
+        "ILM",
+        "RPE_inner",
+        "RPE_outer_BM"
+      ],
+      "category": "factorial",
+      "checkpoint": "models/factorial/V101/seed_002/source_best.pt",
+      "checkpoint_sha256": "c6a65b46b73eca0a153d3c662fcf6b776d867f98a031493e6d7da5ec71636f8b",
+      "fda": true,
+      "model_id": "V101__seed_002",
+      "occlusion": false,
+      "role": null,
+      "scale": true,
+      "seed": 2,
+      "selected_weights": "model"
+    },
+    {
+      "adaptation": null,
+      "architecture": "SurfaceUNet-v1",
+      "arm": "V101",
+      "boundary_order": [
+        "ILM",
+        "RPE_inner",
+        "RPE_outer_BM"
+      ],
+      "category": "factorial",
+      "checkpoint": "models/factorial/V101/seed_003/source_best.pt",
+      "checkpoint_sha256": "99121556773b5fd379eb01bc1d046026d03f33cc6e144bc52ad040f9edd2b134",
+      "fda": true,
+      "model_id": "V101__seed_003",
+      "occlusion": false,
+      "role": null,
+      "scale": true,
+      "seed": 3,
+      "selected_weights": "model"
+    },
+    {
+      "adaptation": null,
+      "architecture": "SurfaceUNet-v1",
+      "arm": "V101",
+      "boundary_order": [
+        "ILM",
+        "RPE_inner",
+        "RPE_outer_BM"
+      ],
+      "category": "factorial",
+      "checkpoint": "models/factorial/V101/seed_004/source_best.pt",
+      "checkpoint_sha256": "79eef3a806739f6b8c370a0644609572eced0f42b4db25d30379dc159104e473",
+      "fda": true,
+      "model_id": "V101__seed_004",
+      "occlusion": false,
+      "role": null,
+      "scale": true,
+      "seed": 4,
+      "selected_weights": "model"
+    },
+    {
+      "adaptation": null,
+      "architecture": "SurfaceUNet-v1",
+      "arm": "V110",
+      "boundary_order": [
+        "ILM",
+        "RPE_inner",
+        "RPE_outer_BM"
+      ],
+      "category": "factorial",
+      "checkpoint": "models/factorial/V110/seed_000/source_best.pt",
+      "checkpoint_sha256": "0a9a402bd2c5f0eac3f7ab2e12b53cdae28602d58f64e0465aba0cf6484fe4c8",
+      "fda": false,
+      "model_id": "V110__seed_000",
+      "occlusion": true,
+      "role": null,
+      "scale": true,
+      "seed": 0,
+      "selected_weights": "model"
+    },
+    {
+      "adaptation": null,
+      "architecture": "SurfaceUNet-v1",
+      "arm": "V110",
+      "boundary_order": [
+        "ILM",
+        "RPE_inner",
+        "RPE_outer_BM"
+      ],
+      "category": "factorial",
+      "checkpoint": "models/factorial/V110/seed_001/source_best.pt",
+      "checkpoint_sha256": "8dfc06dae59a3f7ecf6fbf88b71a5b1161e84b958f62580af42cae72ada54eb5",
+      "fda": false,
+      "model_id": "V110__seed_001",
+      "occlusion": true,
+      "role": null,
+      "scale": true,
+      "seed": 1,
+      "selected_weights": "model"
+    },
+    {
+      "adaptation": null,
+      "architecture": "SurfaceUNet-v1",
+      "arm": "V110",
+      "boundary_order": [
+        "ILM",
+        "RPE_inner",
+        "RPE_outer_BM"
+      ],
+      "category": "factorial",
+      "checkpoint": "models/factorial/V110/seed_002/source_best.pt",
+      "checkpoint_sha256": "52353a8d76831798e5e6361acc9a4635018b3d87baf47bafceaa96831ceac752",
+      "fda": false,
+      "model_id": "V110__seed_002",
+      "occlusion": true,
+      "role": null,
+      "scale": true,
+      "seed": 2,
+      "selected_weights": "model"
+    },
+    {
+      "adaptation": null,
+      "architecture": "SurfaceUNet-v1",
+      "arm": "V110",
+      "boundary_order": [
+        "ILM",
+        "RPE_inner",
+        "RPE_outer_BM"
+      ],
+      "category": "factorial",
+      "checkpoint": "models/factorial/V110/seed_003/source_best.pt",
+      "checkpoint_sha256": "64dd7dfbf9d2f982af4cce0137065674723292dee6413d79dafb2331ce4dc162",
+      "fda": false,
+      "model_id": "V110__seed_003",
+      "occlusion": true,
+      "role": null,
+      "scale": true,
+      "seed": 3,
+      "selected_weights": "model"
+    },
+    {
+      "adaptation": null,
+      "architecture": "SurfaceUNet-v1",
+      "arm": "V110",
+      "boundary_order": [
+        "ILM",
+        "RPE_inner",
+        "RPE_outer_BM"
+      ],
+      "category": "factorial",
+      "checkpoint": "models/factorial/V110/seed_004/source_best.pt",
+      "checkpoint_sha256": "244198ab26534fb4af1214b8eb814ed0fa78dd139ce72b4dd36bcf24f75811b5",
+      "fda": false,
+      "model_id": "V110__seed_004",
+      "occlusion": true,
+      "role": null,
+      "scale": true,
+      "seed": 4,
+      "selected_weights": "model"
+    },
+    {
+      "adaptation": null,
+      "architecture": "SurfaceUNet-v1",
+      "arm": "V111",
+      "boundary_order": [
+        "ILM",
+        "RPE_inner",
+        "RPE_outer_BM"
+      ],
+      "category": "factorial",
+      "checkpoint": "models/factorial/V111/seed_000/source_best.pt",
+      "checkpoint_sha256": "f7bec5dfbc50e14eb4125e75a3571533677e7de3fdf578e1856547243307fd6e",
+      "fda": true,
+      "model_id": "V111__seed_000",
+      "occlusion": true,
+      "role": "R*",
+      "scale": true,
+      "seed": 0,
+      "selected_weights": "model"
+    },
+    {
+      "adaptation": null,
+      "architecture": "SurfaceUNet-v1",
+      "arm": "V111",
+      "boundary_order": [
+        "ILM",
+        "RPE_inner",
+        "RPE_outer_BM"
+      ],
+      "category": "factorial",
+      "checkpoint": "models/factorial/V111/seed_001/source_best.pt",
+      "checkpoint_sha256": "6904c49948425f3fb0e68a0ad3146189e7a360ce76e14421e5f7ced2f5fddb8d",
+      "fda": true,
+      "model_id": "V111__seed_001",
+      "occlusion": true,
+      "role": "R*",
+      "scale": true,
+      "seed": 1,
+      "selected_weights": "model"
+    },
+    {
+      "adaptation": null,
+      "architecture": "SurfaceUNet-v1",
+      "arm": "V111",
+      "boundary_order": [
+        "ILM",
+        "RPE_inner",
+        "RPE_outer_BM"
+      ],
+      "category": "factorial",
+      "checkpoint": "models/factorial/V111/seed_002/source_best.pt",
+      "checkpoint_sha256": "5cdd1383bfb96f27b1bf3019fd38cd35f68fb33d68f752afe56db6ca6d1b70db",
+      "fda": true,
+      "model_id": "V111__seed_002",
+      "occlusion": true,
+      "role": "R*",
+      "scale": true,
+      "seed": 2,
+      "selected_weights": "model"
+    },
+    {
+      "adaptation": null,
+      "architecture": "SurfaceUNet-v1",
+      "arm": "V111",
+      "boundary_order": [
+        "ILM",
+        "RPE_inner",
+        "RPE_outer_BM"
+      ],
+      "category": "factorial",
+      "checkpoint": "models/factorial/V111/seed_003/source_best.pt",
+      "checkpoint_sha256": "c3e5c21589eb7165b51c6fd2f656647594fbc894fcfe29e196e01888a633567b",
+      "fda": true,
+      "model_id": "V111__seed_003",
+      "occlusion": true,
+      "role": "R*",
+      "scale": true,
+      "seed": 3,
+      "selected_weights": "model"
+    },
+    {
+      "adaptation": null,
+      "architecture": "SurfaceUNet-v1",
+      "arm": "V111",
+      "boundary_order": [
+        "ILM",
+        "RPE_inner",
+        "RPE_outer_BM"
+      ],
+      "category": "factorial",
+      "checkpoint": "models/factorial/V111/seed_004/source_best.pt",
+      "checkpoint_sha256": "bbf724b60822529b4697f24adba4accd31a28cb7ab6ad456a4e8e6271f6bac9e",
+      "fda": true,
+      "model_id": "V111__seed_004",
+      "occlusion": true,
+      "role": "R*",
+      "scale": true,
+      "seed": 4,
+      "selected_weights": "model"
+    },
+    {
+      "adaptation": "histogram_matching",
+      "architecture": "SurfaceUNet-v1",
+      "arm": "B1_HM",
+      "boundary_order": [
+        "ILM",
+        "RPE_inner",
+        "RPE_outer_BM"
+      ],
+      "category": "matched_baseline",
+      "checkpoint": "models/matched-baseline/B1_HM/seed_000/source_best.pt",
+      "checkpoint_sha256": "107cf8c3fa0202b072e320d9a01981be4254e43fc0e762ae932b9f4b4fbc77f9",
+      "fda": false,
+      "model_id": "B1_HM__seed_000",
+      "occlusion": false,
+      "role": null,
+      "scale": false,
+      "seed": 0,
+      "selected_weights": "model"
+    },
+    {
+      "adaptation": "histogram_matching",
+      "architecture": "SurfaceUNet-v1",
+      "arm": "B1_HM",
+      "boundary_order": [
+        "ILM",
+        "RPE_inner",
+        "RPE_outer_BM"
+      ],
+      "category": "matched_baseline",
+      "checkpoint": "models/matched-baseline/B1_HM/seed_001/source_best.pt",
+      "checkpoint_sha256": "dd53f8d68c86032049c269b357a3dc215b8f156becc5aadb1f19d16f5697ca0b",
+      "fda": false,
+      "model_id": "B1_HM__seed_001",
+      "occlusion": false,
+      "role": null,
+      "scale": false,
+      "seed": 1,
+      "selected_weights": "model"
+    },
+    {
+      "adaptation": "histogram_matching",
+      "architecture": "SurfaceUNet-v1",
+      "arm": "B1_HM",
+      "boundary_order": [
+        "ILM",
+        "RPE_inner",
+        "RPE_outer_BM"
+      ],
+      "category": "matched_baseline",
+      "checkpoint": "models/matched-baseline/B1_HM/seed_002/source_best.pt",
+      "checkpoint_sha256": "3a8e980d559a9f5a36f173c98e25d0e694ceea52e44f40143ef359d9cb3103ed",
+      "fda": false,
+      "model_id": "B1_HM__seed_002",
+      "occlusion": false,
+      "role": null,
+      "scale": false,
+      "seed": 2,
+      "selected_weights": "model"
+    },
+    {
+      "adaptation": "histogram_matching",
+      "architecture": "SurfaceUNet-v1",
+      "arm": "B1_HM",
+      "boundary_order": [
+        "ILM",
+        "RPE_inner",
+        "RPE_outer_BM"
+      ],
+      "category": "matched_baseline",
+      "checkpoint": "models/matched-baseline/B1_HM/seed_003/source_best.pt",
+      "checkpoint_sha256": "d4b3589baa3b121becdebd6c29c507021ad544d3feebf0658f7d8ca2e0c0c9ac",
+      "fda": false,
+      "model_id": "B1_HM__seed_003",
+      "occlusion": false,
+      "role": null,
+      "scale": false,
+      "seed": 3,
+      "selected_weights": "model"
+    },
+    {
+      "adaptation": "histogram_matching",
+      "architecture": "SurfaceUNet-v1",
+      "arm": "B1_HM",
+      "boundary_order": [
+        "ILM",
+        "RPE_inner",
+        "RPE_outer_BM"
+      ],
+      "category": "matched_baseline",
+      "checkpoint": "models/matched-baseline/B1_HM/seed_004/source_best.pt",
+      "checkpoint_sha256": "19078e7e0bfd3ee148e29e5b704f0136cfe964185a7514b60391625ce4a64f15",
+      "fda": false,
+      "model_id": "B1_HM__seed_004",
+      "occlusion": false,
+      "role": null,
+      "scale": false,
+      "seed": 4,
+      "selected_weights": "model"
+    },
+    {
+      "adaptation": "gin_ipa",
+      "architecture": "SurfaceUNet-v1",
+      "arm": "B2_GINIPA",
+      "boundary_order": [
+        "ILM",
+        "RPE_inner",
+        "RPE_outer_BM"
+      ],
+      "category": "matched_baseline",
+      "checkpoint": "models/matched-baseline/B2_GINIPA/seed_000/source_best.pt",
+      "checkpoint_sha256": "0a898e531a1d993f3516e2fc079eba38dd694a68e14dec5cd9f044bbe80bd818",
+      "fda": false,
+      "model_id": "B2_GINIPA__seed_000",
+      "occlusion": false,
+      "role": null,
+      "scale": false,
+      "seed": 0,
+      "selected_weights": "model"
+    },
+    {
+      "adaptation": "gin_ipa",
+      "architecture": "SurfaceUNet-v1",
+      "arm": "B2_GINIPA",
+      "boundary_order": [
+        "ILM",
+        "RPE_inner",
+        "RPE_outer_BM"
+      ],
+      "category": "matched_baseline",
+      "checkpoint": "models/matched-baseline/B2_GINIPA/seed_001/source_best.pt",
+      "checkpoint_sha256": "87c5285e868d9edceafbd5a2e15208f4d1cce3b39cd85d09e88c8e0f8110f18b",
+      "fda": false,
+      "model_id": "B2_GINIPA__seed_001",
+      "occlusion": false,
+      "role": null,
+      "scale": false,
+      "seed": 1,
+      "selected_weights": "model"
+    },
+    {
+      "adaptation": "gin_ipa",
+      "architecture": "SurfaceUNet-v1",
+      "arm": "B2_GINIPA",
+      "boundary_order": [
+        "ILM",
+        "RPE_inner",
+        "RPE_outer_BM"
+      ],
+      "category": "matched_baseline",
+      "checkpoint": "models/matched-baseline/B2_GINIPA/seed_002/source_best.pt",
+      "checkpoint_sha256": "6f4895625667b55c61b90c933b08a400b294a9c722fbab7dc4c0508913f8d988",
+      "fda": false,
+      "model_id": "B2_GINIPA__seed_002",
+      "occlusion": false,
+      "role": null,
+      "scale": false,
+      "seed": 2,
+      "selected_weights": "model"
+    },
+    {
+      "adaptation": "gin_ipa",
+      "architecture": "SurfaceUNet-v1",
+      "arm": "B2_GINIPA",
+      "boundary_order": [
+        "ILM",
+        "RPE_inner",
+        "RPE_outer_BM"
+      ],
+      "category": "matched_baseline",
+      "checkpoint": "models/matched-baseline/B2_GINIPA/seed_003/source_best.pt",
+      "checkpoint_sha256": "305135f34dae7acdb99110766ea51e5fa18feccab4bb378d77f1c7f5a19e3003",
+      "fda": false,
+      "model_id": "B2_GINIPA__seed_003",
+      "occlusion": false,
+      "role": null,
+      "scale": false,
+      "seed": 3,
+      "selected_weights": "model"
+    },
+    {
+      "adaptation": "gin_ipa",
+      "architecture": "SurfaceUNet-v1",
+      "arm": "B2_GINIPA",
+      "boundary_order": [
+        "ILM",
+        "RPE_inner",
+        "RPE_outer_BM"
+      ],
+      "category": "matched_baseline",
+      "checkpoint": "models/matched-baseline/B2_GINIPA/seed_004/source_best.pt",
+      "checkpoint_sha256": "f8c3cb327ca08097b121c9521bd7ee05c5b8c8efc65080086eca38fe74f4839d",
+      "fda": false,
+      "model_id": "B2_GINIPA__seed_004",
+      "occlusion": false,
+      "role": null,
+      "scale": false,
+      "seed": 4,
+      "selected_weights": "model"
+    },
+    {
+      "adaptation": "mean_teacher",
+      "architecture": "SurfaceUNet-v1",
+      "arm": "B3_MT",
+      "boundary_order": [
+        "ILM",
+        "RPE_inner",
+        "RPE_outer_BM"
+      ],
+      "category": "matched_baseline",
+      "checkpoint": "models/matched-baseline/B3_MT/seed_000/source_best.pt",
+      "checkpoint_sha256": "75035f245871f0bf8e5e593c1c7d55938b5b8f21d955821c2a57e0f4682cb0ac",
+      "fda": false,
+      "model_id": "B3_MT__seed_000",
+      "occlusion": false,
+      "role": null,
+      "scale": false,
+      "seed": 0,
+      "selected_weights": "teacher"
+    },
+    {
+      "adaptation": "mean_teacher",
+      "architecture": "SurfaceUNet-v1",
+      "arm": "B3_MT",
+      "boundary_order": [
+        "ILM",
+        "RPE_inner",
+        "RPE_outer_BM"
+      ],
+      "category": "matched_baseline",
+      "checkpoint": "models/matched-baseline/B3_MT/seed_001/source_best.pt",
+      "checkpoint_sha256": "76ed7fb5ee365111cd1800051a0030b1ae1d44a96f093062545ec658452459a8",
+      "fda": false,
+      "model_id": "B3_MT__seed_001",
+      "occlusion": false,
+      "role": null,
+      "scale": false,
+      "seed": 1,
+      "selected_weights": "teacher"
+    },
+    {
+      "adaptation": "mean_teacher",
+      "architecture": "SurfaceUNet-v1",
+      "arm": "B3_MT",
+      "boundary_order": [
+        "ILM",
+        "RPE_inner",
+        "RPE_outer_BM"
+      ],
+      "category": "matched_baseline",
+      "checkpoint": "models/matched-baseline/B3_MT/seed_002/source_best.pt",
+      "checkpoint_sha256": "d4e4b4bc04e7dfed81e8f45af6416c248ec1af01f910a46520e1374d4701f294",
+      "fda": false,
+      "model_id": "B3_MT__seed_002",
+      "occlusion": false,
+      "role": null,
+      "scale": false,
+      "seed": 2,
+      "selected_weights": "teacher"
+    },
+    {
+      "adaptation": "mean_teacher",
+      "architecture": "SurfaceUNet-v1",
+      "arm": "B3_MT",
+      "boundary_order": [
+        "ILM",
+        "RPE_inner",
+        "RPE_outer_BM"
+      ],
+      "category": "matched_baseline",
+      "checkpoint": "models/matched-baseline/B3_MT/seed_003/source_best.pt",
+      "checkpoint_sha256": "44b29bb23383d839fe1480e300d4cb82f2ea4479a584bbcef79608463b0b4999",
+      "fda": false,
+      "model_id": "B3_MT__seed_003",
+      "occlusion": false,
+      "role": null,
+      "scale": false,
+      "seed": 3,
+      "selected_weights": "teacher"
+    },
+    {
+      "adaptation": "mean_teacher",
+      "architecture": "SurfaceUNet-v1",
+      "arm": "B3_MT",
+      "boundary_order": [
+        "ILM",
+        "RPE_inner",
+        "RPE_outer_BM"
+      ],
+      "category": "matched_baseline",
+      "checkpoint": "models/matched-baseline/B3_MT/seed_004/source_best.pt",
+      "checkpoint_sha256": "eb841477d4324b74dbe5b044c05298b519390b6495d3cc2ee55d1680688e1d64",
+      "fda": false,
+      "model_id": "B3_MT__seed_004",
+      "occlusion": false,
+      "role": null,
+      "scale": false,
+      "seed": 4,
+      "selected_weights": "teacher"
+    }
+  ],
+  "schema": 1
+}

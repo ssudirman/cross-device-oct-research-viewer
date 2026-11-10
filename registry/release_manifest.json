@@ -1,0 +1,51 @@
+{
+  "contains_absolute_paths": false,
+  "contains_annotation_arrays": false,
+  "contains_dataset_pixels": false,
+  "contains_label_derived_columns": false,
+  "excluded": [
+    "CW*",
+    "final.pt",
+    "final_student.pt",
+    "harness_v3 predictions",
+    "harness_v6 copies"
+  ],
+  "models": {
+    "count": 55,
+    "path": "model_registry.json",
+    "sha256": "8d16abeb3737cad6274a55f660b8027c3590710eac41c15208c537a43ab9180c"
+  },
+  "predictions": {
+    "count": 365,
+    "path": "prediction_allowlist.json",
+    "sha256": "443181589761cb1e28524ed0b6393a3046878faa4a40ca0311ad56a8d1d33993"
+  },
+  "scan_indexes": {
+    "aroi": {
+      "path": "scan_indexes/aroi.jsonl",
+      "rows": 3072,
+      "sha256": "9327059bd25fc41a053564b617947f0fc93b4afe60b5bd86924dd14cf7c52640"
+    },
+    "duke_amd": {
+      "path": "scan_indexes/duke_amd.jsonl",
+      "rows": 38382,
+      "sha256": "adf9ffd2d7ad1fea4b052228a471d3b26d472ea4b0bf2e557a20968cc3677d4b"
+    },
+    "duke_dme": {
+      "path": "scan_indexes/duke_dme.jsonl",
+      "rows": 610,
+      "sha256": "75fba4a437e8b0623f24d1fa1f70a154b1c8a0c1a4e02b4f30092b0f64eeb5ae"
+    },
+    "jhu": {
+      "path": "scan_indexes/jhu.jsonl",
+      "rows": 1715,
+      "sha256": "5ca55dc8dc60a6c0d9c3a8425a2d4a43a0bd703d84a9f973e25e4c2b1f30e318"
+    },
+    "oct5k": {
+      "path": "scan_indexes/oct5k.jsonl",
+      "rows": 4234,
+      "sha256": "0a6fa3d7a1738638923d2abda24ac75e8e1c0c6bcfe5b2f75e346f5b52968c1b"
+    }
+  },
+  "schema": 1
+}

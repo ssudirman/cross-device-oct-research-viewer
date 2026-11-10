@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cross-Device OCT Research</title>
+  <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <div>
+      <p class="eyebrow">Liverpool John Moores University Research</p>
+      <h1>Cross-Device OCT Research</h1>
+    </div>
+    <div class="top-actions">
+      <nav class="mode-switch" aria-label="Application view">
+        <button id="viewerModeButton" class="mode-button active" aria-pressed="true">Scan viewer</button>
+        <button id="resultsModeButton" class="mode-button" aria-pressed="false">Study results</button>
+      </nav>
+      <span id="registryStatus" class="status-pill">Loading registry…</span>
+      <button id="settingsButton" class="button quiet">Dataset roots</button>
+      <button id="importButton" class="button secondary">Import Custom scan</button>
+    </div>
+  </header>
+
+  <div id="researchNotice" class="notice" role="alert"></div>
+
+  <main id="viewerWorkspace" class="workspace">
+    <aside class="panel browser-panel">
+      <div class="panel-heading">
+        <div><span class="step">1</span><h2>Choose a B-scan</h2></div>
+        <p>Built-in datasets are read-only.</p>
+      </div>
+      <div id="datasetList" class="dataset-list"></div>
+      <div class="browser-filters">
+        <label>Group<select id="groupSelect"><option value="">All groups</option></select></label>
+        <label>Search<input id="scanSearch" type="search" placeholder="ID, subject, volume…"></label>
+      </div>
+      <div id="scanSummary" class="small-note"></div>
+      <div id="scanList" class="scan-list"></div>
+      <div class="pager">
+        <button id="previousPage" class="button quiet">Previous</button>
+        <span id="pageLabel">—</span>
+        <button id="nextPage" class="button quiet">Next</button>
+      </div>
+    </aside>
+
+    <section class="panel viewer-panel">
+      <div class="panel-heading viewer-heading">
+        <div><span class="step">2</span><h2>Inspect the scan</h2></div>
+        <div class="viewer-actions">
+          <button id="addCustomButton" class="button secondary" disabled>Add this scan to Custom</button>
+          <button id="trashCustomButton" class="button quiet hidden">Move to trash</button>
+          <button id="exportButton" class="button quiet" disabled>Export figure</button>
+        </div>
+      </div>
+
+      <div id="scanMeta" class="scan-meta empty">Select a scan from the browser.</div>
+      <div id="scanWarning" class="inline-warning hidden"></div>
+      <div id="canvasViewport" class="canvas-viewport">
+        <canvas id="octCanvas" width="900" height="560" aria-label="OCT B-scan viewer"></canvas>
+        <div id="canvasEmpty" class="canvas-empty">No B-scan selected</div>
+      </div>
+      <div class="viewer-controls">
+        <label>Zoom <input id="zoomControl" type="range" min="50" max="300" value="100"><span id="zoomValue">100%</span></label>
+        <label>Brightness <input id="brightnessControl" type="range" min="50" max="180" value="100"><span id="brightnessValue">100%</span></label>
+        <label>Contrast <input id="contrastControl" type="range" min="50" max="220" value="100"><span id="contrastValue">100%</span></label>
+      </div>
+      <div class="boundary-key">
+        <span><i class="line ilm"></i>ILM</span>
+        <span><i class="line inner"></i>Inner RPE</span>
+        <span><i class="line outer"></i>Outer RPE/BM</span>
+        <span class="small-note">Curves use the stored pixel-centre convention.</span>
+      </div>
+      <div id="activeOverlayList" class="active-overlays"></div>
+    </section>
+
+    <aside class="panel results-panel">
+      <div class="panel-heading">
+        <div><span class="step">3</span><h2>Choose predictions</h2></div>
+        <p id="availabilityText">Select a scan.</p>
+      </div>
+      <div class="result-filters">
+        <label>View<select id="viewSelect" disabled><option>—</option></select></label>
+        <label>Family<select id="familyFilter"><option value="">All</option><option value="factorial">Factorial</option><option value="matched_baseline">Matched baselines</option></select></label>
+        <label>Recipe / method<input id="armFilter" type="search" placeholder="e.g. V111 or B1_HM"></label>
+        <label>Seed<select id="seedFilter"><option value="">All seeds</option><option>0</option><option>1</option><option>2</option><option>3</option><option>4</option></select></label>
+      </div>
+      <div class="seed-average-box">
+        <label>Five-seed average<select id="averageArm"><option value="">Choose recipe/method</option></select></label>
+        <button id="averageButton" class="button secondary" disabled>Calculate fresh</button>
+        <p>Not an evaluated model; no uncertainty band is shown.</p>
+      </div>
+      <div id="resultList" class="result-list"><p class="empty">No results loaded.</p></div>
+      <div id="customInference" class="inference-box hidden">
+        <h3>Run on this Custom scan</h3>
+        <p>Generated results remain under Custom and are labelled exploratory.</p>
+        <div class="inference-actions">
+          <select id="deviceSelect"><option value="cpu">CPU</option><option value="cuda:0">CUDA GPU 0</option><option value="cuda:1">CUDA GPU 1</option></select>
+          <button id="runAllButton" class="button primary">Run all installed models</button>
+        </div>
+        <div id="jobStatus" class="job-status"></div>
+      </div>
+    </aside>
+  </main>
+
+  <main id="studyResultsWorkspace" class="study-results hidden">
+    <section class="results-hero">
+      <div>
+        <p class="eyebrow">Frozen experimental evidence</p>
+        <h2>Study results</h2>
+        <p id="studyMetric">Loading the packaged analysis…</p>
+      </div>
+      <div class="evidence-key" aria-label="Evidence key">
+        <span><i class="legend-dot recipe"></i>Selected recipe</span>
+        <span><i class="legend-dot comparator"></i>Practical comparator</span>
+        <span><i class="legend-dot reference"></i>Unadapted reference</span>
+      </div>
+    </section>
+
+    <section id="studyNotes" class="study-notes"></section>
+
+    <section class="study-section">
+      <div class="section-heading"><div><span>01</span><h2>Exploratory performance</h2></div><p>Five independently trained seeds per recipe; lower error is better.</p></div>
+      <div id="exploratoryCharts" class="chart-grid"></div>
+    </section>
+
+    <section class="study-section">
+      <div class="section-heading"><div><span>02</span><h2>Recipe selection</h2></div><p>Normalised selection score across the three development cohorts.</p></div>
+      <div id="selectionNote" class="status-callout"></div>
+      <div id="selectionChart" class="wide-chart"></div>
+    </section>
+
+    <section class="study-section">
+      <div class="section-heading"><div><span>03</span><h2>Factorial effects and interactions</h2></div><p>Negative values favour the intervention; intervals are hierarchical 95% intervals.</p></div>
+      <div id="factorialCharts" class="chart-grid"></div>
+    </section>
+
+    <section class="study-section">
+      <div class="section-heading"><div><span>04</span><h2>Untouched-cohort evaluation</h2></div><p>Models were transferred without retraining or cohort-specific fine-tuning.</p></div>
+      <div id="confirmatoryNote" class="status-callout"></div>
+      <div id="confirmatoryCharts" class="chart-grid"></div>
+      <div id="contrastCharts" class="chart-grid"></div>
+    </section>
+
+    <section class="study-section">
+      <div class="section-heading"><div><span>05</span><h2>Boundary-specific error</h2></div><p>Descriptive pooled means for ILM, inner RPE and outer RPE/BM.</p></div>
+      <div id="boundaryCharts" class="chart-grid"></div>
+    </section>
+
+    <section class="study-section downloads-section">
+      <div class="section-heading"><div><span>06</span><h2>Analysis files and provenance</h2></div><p>Download the packaged source tables, JSON records and verification reports.</p></div>
+      <div id="downloadList" class="download-list"></div>
+    </section>
+  </main>
+
+  <dialog id="importDialog">
+    <form id="importForm" method="dialog">
+      <div class="dialog-heading"><h2>Register a Custom B-scan</h2><button type="button" id="closeImport" class="icon-button">×</button></div>
+      <p>PNG or single-page TIFF is preferred. JPEG is accepted with a compression warning.</p>
+      <label>Image file<input id="customFile" name="file" type="file" accept=".png,.tif,.tiff,.jpg,.jpeg" required></label>
+      <div id="customPreviewBox" class="custom-preview hidden"><img id="customPreview" alt="Orientation preview of the selected Custom B-scan"><span>Confirm vitreous is at the top and deeper tissue is below.</span></div>
+      <div class="two-columns">
+        <label>Axial µm/pixel (optional)<input name="axial_um" type="number" step="any" min="0"></label>
+        <label>Lateral µm/pixel (optional)<input name="lateral_um" type="number" step="any" min="0"></label>
+      </div>
+      <label>Spacing provenance<select name="spacing_provenance"><option value="">Unknown</option><option value="user-entered">User-entered</option><option value="device preset">Device preset</option><option value="header">Header</option></select></label>
+      <label class="check"><input name="orientation_confirmed" type="checkbox" required> I confirm vitreous is at the top, deeper tissue is below, and contrast is not inverted.</label>
+      <label class="check"><input name="confirm_16bit" type="checkbox"> If this is 16-bit, I confirm it is a display-scaled image rather than linear reflectivity.</label>
+      <label class="check"><input type="checkbox" required> I checked the pixels for burned-in identity text.</label>
+      <div id="importError" class="inline-warning hidden"></div>
+      <div class="dialog-actions"><button type="button" id="cancelImport" class="button quiet">Cancel</button><button type="submit" class="button primary">Register scan</button></div>
+    </form>
+  </dialog>
+
+  <dialog id="settingsDialog">
+    <form id="settingsForm" method="dialog">
+      <div class="dialog-heading"><h2>Dataset root folders</h2><button type="button" id="closeSettings" class="icon-button">×</button></div>
+      <p>Set each root once. The viewer resolves individual B-scans and predictions internally.</p>
+      <label>OCT5K annotations<input name="oct5k_annotations" required></label>
+      <label>OCT5K raw images<input name="oct5k_raw" required></label>
+      <label>AROI<input name="aroi" required></label>
+      <label>Duke AMD/control<input name="duke_amd" required></label>
+      <label>JHU HC/MS<input name="jhu" required></label>
+      <label>Duke DME 2015<input name="duke_dme" required></label>
+      <div id="settingsError" class="inline-warning hidden"></div>
+      <div class="dialog-actions"><button type="button" id="cancelSettings" class="button quiet">Cancel</button><button type="submit" class="button primary">Save roots</button></div>
+    </form>
+  </dialog>
+
+  <script src="/static/app.js" defer></script>
+</body>
+</html>
+
