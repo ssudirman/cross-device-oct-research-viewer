@@ -42,7 +42,7 @@ def test_analysis_asset_manifest_hashes_every_packaged_source():
 def test_branding_and_required_background_colour_are_present():
     html = (ROOT / "static" / "index.html").read_text(encoding="utf-8")
     css = (ROOT / "static" / "styles.css").read_text(encoding="utf-8")
-    assert "Liverpool John Moores University Research" in html
+    assert "Liverpool John Moores University - Universitas Multimedia Nusantara Research" in html
     assert "Cross-Device OCT Research" in html
     assert "AMD OCT research workspace" not in html
     assert "Boundary inference viewer" not in html
