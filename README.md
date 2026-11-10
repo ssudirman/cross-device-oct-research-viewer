@@ -108,3 +108,18 @@ see `DATASET_ACQUISITION_AND_INSTALLATION.md` and
 For an end-user explanation of dataset coverage and why some B-scans do not
 have ready-made overlays, see `PREDICTION_RESULT_AVAILABILITY.md`.
 
+## Licence
+
+The application source code in this repository is licensed under the
+[Apache License 2.0](LICENSE).
+
+The trained model checkpoints and model-generated prediction arrays available
+from Zenodo are separate research artifacts and are licensed under the
+[Creative Commons Attribution-NonCommercial 4.0 International licence](https://creativecommons.org/licenses/by-nc/4.0/).
+They are not covered by the Apache software licence.
+
+Original OCT images, annotations and dataset archives are not distributed by
+this project. They remain subject to their providers' respective terms. The
+third-party Python packages named in `requirements.txt` also retain their own
+licences.
+
